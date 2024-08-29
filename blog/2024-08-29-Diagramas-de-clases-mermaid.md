@@ -123,7 +123,7 @@ graph TB
 
 En Mermaid, un diagrama de interacción se puede crear utilizando un **diagrama de secuencia** (Sequence Diagram). Este tipo de diagrama es útil para representar la interacción entre diferentes objetos o entidades en un sistema a lo largo del tiempo.
 
-### Ejemplo de Diagrama de Secuencia en Mermaid
+## Diagrama de Secuencia
 
 ```mermaid
 sequenceDiagram
