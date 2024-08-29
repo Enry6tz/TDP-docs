@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
@@ -8,7 +8,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://tdp-docs.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -37,7 +37,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-         
+
         },
         blog: {
           showReadingTime: true,
@@ -72,10 +72,10 @@ const config: Config = {
           position: 'left',
           label: 'TDP',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://github.com/Enry6tz/TDP-docs',
+          label: 'Repositorio del Proyecto',
           position: 'right',
         },
       ],
@@ -108,22 +108,11 @@ const config: Config = {
               label: 'Rocío Orellano',
               href: 'https://github.com/Rorro-2',
             },
-            /**
-             *
-            spinapierino7:
-            name: Pierino Spina
-            title: Java dev
-            url: https://github.com/spinapierino7
-            image_url: https://github.com/spinapierino7.png
-            page: false
-            socials:
-            github: spinapierino7
-            */
-  {
-    label: ' Pierino Spina',
-    href: 'https://github.com/spinapierino7',
-  },
-        
+            {
+              label: ' Pierino Spina',
+              href: 'https://github.com/spinapierino7',
+            },
+
             {
               label: 'Elizabeth Mercado',
               href: 'https://github.com/NenaM1993',
@@ -138,8 +127,8 @@ const config: Config = {
               to: '/blog',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Repositorio documentacion',
+              href: 'https://github.com/Enry6tz/TDP-docs',
             },
           ],
         },
