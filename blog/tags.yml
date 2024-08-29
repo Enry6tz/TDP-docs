@@ -1,0 +1,14 @@
+Java:
+  label: Java
+  permalink: /Java
+  description: Java tag description
+
+TDP:
+  label: TDP
+  permalink: /TDP
+  description: tecnologia de programacion
+
+docusaurus:
+  label: Docusaurus
+  permalink: /docusaurus
+  description: Docusaurus tag description
