@@ -54,7 +54,7 @@ classDiagram
         +User user
     }
 
-    Blog "1" --> "1" Author : has
+    Blog "1" --> "1" Author : coment
     Blog "1" --> "many" Comment : has
     Comment "1" --> "many" Reply : has
     Comment "1" --> "1" User : by

@@ -1,8 +1,8 @@
 ---
 slug: welcome
 title: Como colaborar
-authors: enry6tz
-tags: [ docusaurus]
+authors: [enry6tz,rorro-2]
+tags: [ docusaurus, markdown]
 ---
 
 # Bienvenido a Docusaurus

@@ -12,3 +12,8 @@ docusaurus:
   label: Docusaurus
   permalink: /docusaurus
   description: Docusaurus tag description
+  
+markdown:
+  label: markdown
+  permalink: /markdown
+  description: markdown tag description
