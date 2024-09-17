@@ -201,6 +201,6 @@ classDiagram
 ```
 
 
-![Docusaurus Plushie](./Diagram-Uml-preview.jpeg)
+![Diagrama Extendido](../../static/img/Proyecto-img/umlDiagram.jpeg)
 
 
