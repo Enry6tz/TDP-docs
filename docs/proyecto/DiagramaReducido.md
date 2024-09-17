@@ -1,7 +1,90 @@
 ---
 sidebar_position: 1
 ---
+## Diagrama reducido 
 
+
+```mermaid
+classDiagram
+    class Game {
+    }
+
+    class Player {
+    }
+
+    class Enemy {
+        <<Abstract>>
+    }
+
+    class Goomba {
+
+    }
+
+    class KoopaTroopa {
+    }
+
+    class Lakitu {
+    }
+
+    class Spiny {
+    }
+
+    class PiranhaPlant {
+
+    }
+
+    class BuzzyBeetle {
+    }
+
+    class PowerUp {
+        <<Abstract>>
+    }
+
+    class SuperMushroom {
+ 
+    }
+
+    class FireFlower {
+
+    }
+
+    class Star {
+
+    }
+
+    class GreenMushroom {
+    }
+
+    class Platform {
+     
+    }
+
+    class Level {
+    }
+
+    Game --> Player
+    Game --> Level
+    Level --> Enemy
+    Level --> Platform
+    Level --> PowerUp
+    Player --> Enemy : interacts
+    Player --> PowerUp : uses
+    Player --> Platform : stands on
+
+    Enemy <|-- Goomba
+    Enemy <|-- KoopaTroopa
+    Enemy <|-- Lakitu
+    Enemy <|-- Spiny
+    Enemy <|-- PiranhaPlant
+    Enemy <|-- BuzzyBeetle
+
+    PowerUp <|-- SuperMushroom
+    PowerUp <|-- FireFlower
+    PowerUp <|-- Star
+    PowerUp <|-- GreenMushroom
+```
+
+## Diagrama extendido 
 ```mermaid
 classDiagram
     class Game {
@@ -119,83 +202,3 @@ classDiagram
     PowerUp <|-- GreenMushroom
 ```
 
-
-```mermaid
-classDiagram
-    class Game {
-    }
-
-    class Player {
-    }
-
-    class Enemy {
-        <<Abstract>>
-    }
-
-    class Goomba {
-
-    }
-
-    class KoopaTroopa {
-    }
-
-    class Lakitu {
-    }
-
-    class Spiny {
-    }
-
-    class PiranhaPlant {
-
-    }
-
-    class BuzzyBeetle {
-    }
-
-    class PowerUp {
-        <<Abstract>>
-    }
-
-    class SuperMushroom {
- 
-    }
-
-    class FireFlower {
-
-    }
-
-    class Star {
-
-    }
-
-    class GreenMushroom {
-    }
-
-    class Platform {
-     
-    }
-
-    class Level {
-    }
-
-    Game --> Player
-    Game --> Level
-    Level --> Enemy
-    Level --> Platform
-    Level --> PowerUp
-    Player --> Enemy : interacts
-    Player --> PowerUp : uses
-    Player --> Platform : stands on
-
-    Enemy <|-- Goomba
-    Enemy <|-- KoopaTroopa
-    Enemy <|-- Lakitu
-    Enemy <|-- Spiny
-    Enemy <|-- PiranhaPlant
-    Enemy <|-- BuzzyBeetle
-
-    PowerUp <|-- SuperMushroom
-    PowerUp <|-- FireFlower
-    PowerUp <|-- Star
-    PowerUp <|-- GreenMushroom
-```
