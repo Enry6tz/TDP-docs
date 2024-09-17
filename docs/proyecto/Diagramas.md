@@ -2,6 +2,8 @@
 sidebar_position: 2
 ---
 ## Diagrama reducido 
+
+
 ```mermaid
 classDiagram
     class Game {
@@ -204,3 +206,4 @@ classDiagram
 ![Diagrama Extendido](../../static/img/Proyecto-img/umlDiagram.jpeg)
 
 
+agregando cambios
