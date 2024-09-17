@@ -1,9 +1,7 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 ## Diagrama reducido 
-
-
 ```mermaid
 classDiagram
     class Game {
@@ -201,4 +199,8 @@ classDiagram
     PowerUp <|-- Star
     PowerUp <|-- GreenMushroom
 ```
+
+
+![Docusaurus Plushie](./Diagram-Uml-preview.jpeg)
+
 
