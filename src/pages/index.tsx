@@ -22,6 +22,11 @@ function HomepageHeader() {
             to="/docs/intro">
            Ir a la documentación
           </Link>
+          <Link
+            className="button button--secondary button--lg "
+            to="/docs/Defensas/Defensa-1">
+           Defensa 24/9
+          </Link>
         </div>
       </div>
     </header>

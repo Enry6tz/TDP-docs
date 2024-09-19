@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 ## Diagrama reducido 
 
@@ -79,7 +79,7 @@ classDiagram
     Enemy <|-- BuzzyBeetle
 
     PowerUp <|-- SuperMushroom
-    PowerUp <|-- FireFlower
+    PowerUp <|-- FireFlower-
     PowerUp <|-- Star
     PowerUp <|-- GreenMushroom
 ```
